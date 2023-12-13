@@ -6,6 +6,10 @@
 <br><br>
 🇧🇷 - Para download das EFIs BASEs, é necessário você ser membro de qualquer categoria no canal do YouTube e conectar seu Discord à sua conta YouTube para acesso à sala `#efi-base`;
 
+![youtube_connection](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-1STGEN-LYNNFIELD-CLARKDALE-PUBLIC/assets/23700365/0ec9fa84-daae-4519-9ee6-7b8a5b5a58d7)
+<br>
+![efi-base-channel](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-1STGEN-LYNNFIELD-CLARKDALE-PUBLIC/assets/23700365/e1afe744-24f0-4302-942d-4e4eae4dfd4c)
+
 # Basic Info
 
 Note|Description
