@@ -27,8 +27,8 @@ Last Supported OS|macOS 10.13, High Sierra.
 Note 1|Apple does not support desktop Iron Lake iGPUs.
 Note 2|Most Lynnfield and Clarkdale boards do not support UEFI.
 
-- Opencore version: 1.0.4
-- Release date: 04/03/2025
+- Opencore version: 1.0.4.1
+- Release date: 02/05/2025
 
 # Basic Steps
 
