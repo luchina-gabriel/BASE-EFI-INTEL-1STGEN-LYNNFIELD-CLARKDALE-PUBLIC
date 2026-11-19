@@ -27,7 +27,7 @@ Note 2|Most Lynnfield and Clarkdale boards do not support UEFI.
 
 - Opencore version: 1.0.8
 - Release date (OC/Kexts): 27/09/2026
-- Last Update Repository: 27/09/2026
+- Last Update Repository: 19/11/2026
 
 # Basic Steps
 
@@ -190,6 +190,19 @@ MacPro6,1|For Mojave and newer SMBIOS
 - **`AppleCpuPmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
 - **`AvoidRuntimeDefrag`** - For Big Sur, **`ENABLE`** it.
 - Please **`REMOVE`** OpenUsbKbDxe.efi (If your firmware does support UEFI).
+
+# Special notes - For NVIDIA GPU
+
+boot-args
+- `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -amfipassbeta`
+
+csr-active-config
+- `03080000`
+- `430A0000`
+
+Other adjustments
+- Kernel > Block > "Allow NullMoth Nvidia Driver" > Enabled
+- WhateverGreen removed or disabled
 
 ### GPU-Specific `boot-args`
 Parameter|Description
